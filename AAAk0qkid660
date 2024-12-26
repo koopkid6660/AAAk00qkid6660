@@ -1,0 +1,1374 @@
+
+
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/Q69rcHsK"))()
+local colors = {
+    SchemeColor = Color3.fromRGB(125, 102, 255),
+    Background = Color3.fromRGB(0, 0, 0),
+    Header = Color3.fromRGB(0, 0, 0),
+    TextColor = Color3.fromRGB(0, 0, 255),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+local Window = Library.CreateLib("😎k00pkid6660 op hub😎 ",colors) local themes = {
+    "SchemeColor",
+    "Background",
+    "Header",
+    "TextColor",
+    "ElementColor"
+}
+
+--Color changer
+
+local Tab = Window:NewTab("UI color changer")
+local Section = Tab:NewSection("UI color changer")
+
+for _, theme, color in ipairs(themes) do
+    Section:NewColorPicker(theme, "Change your " .. theme, colors[theme], function(color)
+        colors[theme] = color
+    end)
+end
+local ToggleGui = Instance.new("ScreenGui")
+local Toggle = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+--Properties:
+
+local ToggleGui = Instance.new("ScreenGui")
+local Toggle = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+ToggleGui.Name = "ToggleGui_HE"
+ToggleGui.Parent = game.CoreGui
+
+Toggle.Name = "Toggle"
+Toggle.Parent = ToggleGui
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Toggle.Position = UDim2.new(0, 0, 0.427710831, 0)
+Toggle.Size = UDim2.new(0, 85, 0, 39)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = "😎k00pkid6660 hub😎"
+Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.TextSize = 18.000
+Toggle.TextWrapped = true
+Toggle.Active = true
+Toggle.Draggable = true
+Toggle.MouseButton1Click:connect(function()
+    Library:ToggleUI()
+end)
+--New Tab
+
+local Tab = Window:NewTab("k00pkid6660 hub")
+local Section = Tab:NewSection("speed")
+
+Section:NewButton("ws 25", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
+end)
+
+Section:NewButton("ws 50", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+end)
+
+Section:NewButton("ws 100", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+end)
+
+local Section = Tab:NewSection("fly script")
+
+Section:NewButton("Fly gui 1", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+Section:NewButton("Fly 2.0", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/gaz0U0XX"))();
+end)
+
+Section:NewButton("vFly", "ButtonInfo", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Vehicle%20Fly%20Gui'))()
+end)
+
+local Section = Tab:NewSection("????")
+
+Section:NewButton("Turtle Spy", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BDhSQqUU", true))()
+end)
+
+Section:NewButton("Remote Spy", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
+end)
+
+local Section = Tab:NewSection("executor")
+
+Section:NewButton("backdoor gui", "ButtonInfo", function()
+ loadstring(game:HttpGet('https://pastebin.com/raw/eg5ddYDN'))()
+end)
+
+Section:NewButton("LALOL Hub", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
+end)
+
+local Section = Tab:NewSection("????")
+
+Section:NewButton("VOID", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Void'))()
+end)
+
+Section:NewButton("invisible", "ButtonInfo", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
+end)
+
+Section:NewButton("Esp Player Gui", "ButtonInfo", function()
+loadstring(game:HttpGet('https://pastefy.app/RJqYMoss/raw'))()
+end)
+
+Section:NewButton("Jerk off (R15)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
+end)
+
+Section:NewButton("Jerk off (R6)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+end)
+
+Section:NewButton("auto fling", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Auto%20Fling%20Player'))()
+end)
+
+Section:NewButton("Sky hubbb", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
+end)
+
+Section:NewButton("roblox cursor", "ButtonInfo", function()
+  loadstring(game:HttpGet(('https://pastefy.app/58d8d52G/raw'),true))()
+end)
+
+Section:NewButton("admin panel", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/3x8vS8j6", true))()
+end)
+
+Section:NewButton("Roblox animation speed script", "ButtonInfo", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/main/Roblox%20animation%20speed%20script'))()
+end)
+
+Section:NewButton("FALL gui", "ButtonInfo", function()
+ loadstring(game:HttpGet('https://pastefy.app/XarMincQ/raw'))()execute("Script268")
+end)
+
+Section:NewButton("Copy Animation", "ButtonInfo", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Copy%20Animation'))()
+end)
+
+Section:NewButton("all game CAMLOCK", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/brosula123/CAMLOCK/main/SKIBIDI"))()
+end)
+
+Section:NewButton("keyboard mobile", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Section:NewButton("grab knife v4", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/m3J58VDx"))()
+end)
+
+Section:NewButton("fe cmds gui", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/VNtyMuFL"))()
+end)
+
+Section:NewButton("t0pk3k v4 fe bypazzzzzzzzz😎😎😎", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://shz.al/QYyC"))()
+end)
+
+Section:NewButton("troll gui Rc7 Script", "ButtonInfo", function()
+  print("utg op loaded")
+source=game:GetObjects("rbxassetid://2909645597")[1].Source
+loadstring(source)()
+
+workspace.FilteringEnabled = false
+while wait(0.02) do
+workspace.FilteringEnabled = false
+end
+end)
+
+Section:NewButton("c00lgui revival", "ButtonInfo", function()
+ loadstring(game:GetObjects("rbxassetid://16738300563")[1].Source)()
+end)
+
+Section:NewButton("chat bypass", "ButtonInfo", function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/YwcnnjRk'))()
+end)
+
+Section:NewButton("infinite yield admin", "ButtonInfo", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Section:NewButton("noclip gui", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/B5xRxTnk",true))()
+end)
+
+Section:NewButton("speed gui 🏃‍♂️", "ButtonInfo", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/x2qYfcBv'))()
+end)
+
+Section:NewButton("Fe frequently", "ButtonInfo", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
+end)
+
+Section:NewButton("nameless admin", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source"))();
+end)
+
+Section:NewButton("fe telekinesis", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/Z33NcECh", true))()
+end)
+
+Section:NewButton("ghost hub", "ButtonInfo", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+Section:NewButton("rochips hub  feeeeeⓂ️Ⓜ️", "ButtonInfo", function()
+  if "you wanna use rochips universal" then
+	local z_x,z_z="gzrux646yj/raw/main.ts","https://glot.io/snippets/"
+	local im,lonely,z_c=task.wait,game,loadstring
+	z_c(lonely:HttpGet(z_z..""..z_x))()
+	return ("This will load in about 2 - 30 seconds" or "according to your device and executor")
+end
+end)
+
+Section:NewButton("op gui v2", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/jpx7sKJe"))()
+end)
+
+Section:NewButton("Ux execute", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://pastefy.app/Nxm9TReQ/raw"))()
+end)
+
+Section:NewButton("lol chat gui", "ButtonInfo", function()
+ loadstring(game:HttpGet('https://pastebin.com/raw/Q0VdG4AL'))()
+end)
+
+Section:NewButton("SystemBroken", "ButtonInfo", function()
+local credits = "SystemBroken made by system_calix"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+end)
+
+Section:NewButton("R15 WALK CLIMB", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_E872F3ky4888TSVdj6Adgi1hSLtM038AyxVpTVw07QA3QUDcI3sxmuD869hYR4id.lua.txt"))()
+end)
+
+Section:NewButton("auto click gui ", "ButtonInfo", function()
+ getgenv().key = "Hostile"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202"))()
+end)
+
+Section:NewButton("auto click gui 2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/wg9suSjr"))()
+end) 
+
+Section:NewButton("hitbox gui", "ButtonInfo", function()
+ loadstring(game:HttpGet('https://pastebin.com/raw/gjq3xYW8'))()
+end)
+
+Section:NewButton("hitbox gui 2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+end)
+
+Section:NewButton("game tp script", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/StreamSniper.lua"))()
+end)
+
+
+local Section = Tab:NewSection("game")
+
+Section:NewButton("bakedahub👶E", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BakeDaHubOwner/BakeDaHub/main/BakeDaHubV4"))()
+end)
+
+local Section = Tab:NewSection("the strongest battlegrounds script")
+
+Section:NewButton("the strongest battlegrounds bedol hub", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/TSBG.jsx"))()
+end)
+
+Section:NewButton("KJ script", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
+end)
+
+Section:NewButton("KADE Hub", "ButtonInfo", function()
+getgenv().AutoReport = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/KadeHubRepository/main/Latest.lua"))()
+end) 
+
+Section:NewButton("Auto combos", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/XNKwIjUX/raw"))()
+end)
+
+Section:NewButton("op gui", "ButtonInfo", function()
+loadstring(game:HttpGet("https://freenote.biz/raw/xkcdkgyhkx",true))()
+end)
+
+Section:NewButton("l0ckerv5", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rentry.org/aquarius-hub/raw"))()
+end)
+
+local Section = Tab:NewSection("blade ball")
+
+Section:NewButton("triple hub", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/TripleScript/TripleHub/main/T-R-I-P-L-E-B-E-A-T-E-R-T-H-I-S-D-A-Y.txt"))()
+end)
+
+Section:NewButton("bedol hub (key)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/BetaTest/Bladeball15m.html"))()
+end)
+
+Section:NewButton("expo hub v1 key Expo#1", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ExpoSploits/expo-key-system/main/Expo%20Key",true))()
+end)
+
+Section:NewButton("nexam hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6af56c1753ac6679dee3acbd1fd952e5.lua"))()
+end) 
+
+Section:NewButton("visual 3.5", "ButtonInfo", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5945467f3b9388503ca653c0ea49cba.lua"))()
+end)
+
+Section:NewButton("op gui", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Augustzyzx/A-s-t-r-a-l/main/Loader_BladeBall.lua'))()
+end)
+
+local Section = Tab:NewSection("piggy")
+
+Section:NewButton("admin", "ButtonInfo", function()
+loadstring(game:HttpGet("https://encurtador.com.br/fiyFJ"))();
+end)
+
+Section:NewButton("piggy gui esp speed god mod jump", "ButtonInfo", function()
+loadstring(Game:HttpGet("https://pastebin.com/raw/xRHcjXVs", true))()
+end)
+
+Section:NewButton("Free avatar script", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://pastefy.app/iWChQoQo/raw'),true))() 
+end)
+
+Section:NewButton("Piggy Hack Script", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Piggy'),true))()
+end)
+
+local Section = Tab:NewSection("slap battles")
+
+Section:NewButton("slap royale op script", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Voxul/VoxulHub/main/loader.lua'))()
+end) 
+
+Section:NewButton("slap royale op script 2 R20", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BreApple/RobloxUI/main/SRscriptNew"))()
+end)
+
+Section:NewButton("slap battles op gui", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua'))()
+end)
+
+Section:NewButton("slap battles op gui 2", "ButtonInfo", function()
+loadstring(game:HttpGet('https://rawscripts.net/raw/Slap-Battles-Open-source-for-9484'))()
+end) 
+
+Section:NewButton("slap battles op gui 3", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/elpro3500/scripts/main/EnderHub-SlapBattles'))()
+end)
+
+Section:NewButton("slap battles op gui 4", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-KykyryzoB-Hub-SB-9008"))()
+end)
+
+Section:NewButton("slap battles op gui 5", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BreApple/RobloxUI/main/Slap_Battles/gbGui_O.txt'))()
+end)
+
+Section:NewButton("Auto Killstreak op", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pestuls/Pestuls/main/SlapBattles/KillstreakAuto", true))()
+end)
+
+Section:NewButton("timedoesntwait", "ButtonInfo", function()
+setclipboard("timedoesntwait")
+end)
+
+Section:NewButton("inf slap script", "ButtonInfo", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/anuVuXjv'))()
+end)
+
+local Section = Tab:NewSection("gun fight arena ")
+
+Section:NewButton("gui", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code'))()
+end)
+
+Section:NewButton("tbao hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubGunfightArena"))()
+end) 
+
+local Section = Tab:NewSection("Rivals")
+
+Section:NewButton("tbao hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
+end)
+
+Section:NewSlider("Walkspeed", "SliderInfo", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+--New tab 
+
+local Tab = Window:NewTab("script")
+local Section = Tab:NewSection("by ga00ekidd and 1337_anz and k00pkid6660 and a00pjkidd and G00pxworld and Funnykiddz")
+
+Section:NewToggle("Infinite Jump", "By toggling this you can jump infinitely.", function(state)    ---put your script to enabled true
+    if state then                                                                                                                                              ---should be the same script
+        local InfiniteJumpEnabled = true
+        game:GetService("UserInputService").JumpRequest:connect(function()
+            if InfiniteJumpEnabled then
+                game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+            end
+        end)
+        print("Infinite Jump: ON")
+    else
+        InfiniteJumpEnabled = false                                                                                                            ---Put your script  disabled false
+        game:GetService("UserInputService").JumpRequest:connect(function()         
+            if InfiniteJumpEnabled then
+                game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+            end
+        end)
+        print("Infinite Jump: OFF")
+    end
+end)
+
+Section:NewTextBox("Set WalkSpeed", "Info", function(txt)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+end)
+
+Section:NewTextBox("Set JumpPower", "Info", function(txt)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+end)
+
+Section:NewButton("Reset Walkspeed", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+Section:NewButton("Reset Jumpower", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+ 
+Section:NewButton("skybox", "ButtonInfo", function()
+
+sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=16835602018"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=16835602018"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=16835602018"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=16835602018"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=16835602018"
+sky.SkyboxDn = "http://www.roblox.com/asset/?id=16835602018"   
+end)
+
+Section:NewButton("skybox 2", "ButtonInfo", function()
+ sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id= 17854275944"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id= 17854275944"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id= 17854275944"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id= 17854275944"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id= 17854275944"
+sky.SkyboxDn = "http://www.roblox.com/asset/?id= 17854275944"
+end)
+
+Section:NewButton("skybox 3", "ButtonInfo", function()
+ sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=17779815392"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=17779815392"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=17779815392"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=17779815392"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=17779815392"
+sky.SkyboxDn = "http://www.roblox.com/asset/?id=17779815392"
+end)
+
+
+Section:NewButton("skybox 4", "ButtonInfo", function()
+   sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id= 18216282459"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id= 18216282459"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id= 18216282459"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id= 18216282459"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id= 18216282459"
+sky.SkyboxDn = "http://www.roblox.com/asset/?id= 18216282459"
+end)
+Section:NewButton("skybox 5", "ButtonInfo", function()
+   sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id= 18257925026"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id= 18257925026"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id= 18257925026"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id= 18257925026"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id= 18257925026"
+sky.SkyboxDn = "http://www.roblox.com/asset/?id= 18257925026"
+end)
+Section:NewButton("skybox 6", "ButtonInfo", function()
+    sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id= 18377920559"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id= 18377920559"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id= 18377920559"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id= 18377920559"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id= 18377920559"
+sky.SkyboxDn = "http://www.roblox.com/asset/?id= 18377920559"
+end)
+Section:NewButton("skybox 7", "ButtonInfo", function()
+ sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id= 18436960553"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id= 18436960553"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id= 18436960553"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id= 18436960553"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id= 18436960553"
+sky.SkyboxDn = "http://www.roblox.com/asset/?id= 18436960553"  
+end)
+Section:NewButton("skybox 8", "ButtonInfo", function()
+    
+sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id= 18436969582"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id= 18436969582"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id= 18436969582"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id= 18436969582"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id= 18436969582"
+sky.SkyboxDn = "http://www.roblox.com/asset/?id= 18436969582"
+end)
+
+Section:NewButton("face all", "ButtonInfo", function()
+   for i,v in pairs(game.Players:GetChildren()) do
+			if v.Character:FindFirstChild("Head") then
+				gui1=Instance.new("BillboardGui")
+				gui1.Parent = v.Character.Head
+				gui1.Adornee = v.Character.Head
+				gui1.Size=UDim2.new(2.5,0,2.5,0)
+				gui1.StudsOffset=Vector3.new(0,0.2,0)
+				gui1.AlwaysOnTop = true
+				text1=Instance.new("ImageLabel")
+				text1.Image = "http://www.roblox.com/asset/?id=16892329593"
+				text1.Size=UDim2.new(1,0,1,0)
+				text1.Position=UDim2.new(0,0,0,0)
+				text1.BackgroundTransparency = 1
+				text1.Parent=gui1
+				v.Character.Head.Transparency = 1
+			end
+		end
+end)
+Section:NewButton("theme", "ButtonInfo", function()
+   local s = Instance.new("Sound")      s.Name = "Sound"     s.SoundId = "http://www.roblox.com/asset/?id=1836255687"     s.Volume = 99999999999999     s.Pitch = 0.762    s.Looped = true     s.archivable = false      s.Parent = game.Workspace      wait(1)      s:play()
+end)
+Section:NewButton("theme 2", "ButtonInfo", function()
+   local s = Instance.new("Sound")      s.Name = "Sound"     s.SoundId = "http://www.roblox.com/asset/?id=5409360995"     s.Volume = 999999999     s.Pitch = 1.4     s.Looped = true     s.archivable = false      s.Parent = game.Workspace      wait(1)      s:play()
+end)Section:NewButton("theme 3", "ButtonInfo", function()
+   local sound = Instance.new("Sound")
+ 
+sound.Name = "Sound"
+sound.SoundId = "http://www.roblox.com/asset/?id= 9046862941" --Song
+sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+sound.Pitch = 1 --Speed of Playback
+sound.Looped = true
+sound.archivable = false
+ 
+sound.Parent = game.Workspace
+ 
+wait(0)
+ 
+sound:play()
+end)
+Section:NewButton("jumpscare ", "ButtonInfo", function()
+   b = Instance.new("Sky") b.Parent = game.Lighting b.SkyboxBk = "http://www.roblox.com/asset/?id=0" b.SkyboxDn = "http://www.roblox.com/asset/?id=0" b.SkyboxFt = "http://www.roblox.com/asset/?id=0" b.SkyboxLf = "http://www.roblox.com/asset/?id=0" b.SkyboxRt = "http://www.roblox.com/asset/?id=0" b.SkyboxUp = "http://www.roblox.com/asset/?id=0" for i,v in pairs(game.Players:GetPlayers()) do if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then spawn(function() local newgui = Instance.new("ScreenGui",v.PlayerGui) newgui.Name = "Screamer" local newimage = Instance.new("ImageLabel",newgui) newimage.Image = "http://www.roblox.com/Asset/?id=16797210046" newimage.Size = UDim2.new(1,1,1,1) local s = Instance.new("Sound",newgui) s.SoundId = "rbxassetid://6129291390" s.Volume = 999e999 s.Pitch = 0.2 s.Looped = true s:Play() print("Screamed "..v.Name) while wait(15) do newimage.Parent:Destroy() wait(11) Spooky = Instance.new("Sound", game.Workspace) Spooky.Name = "Spooky" Spooky.SoundId = "rbxassetid://0" Spooky.Volume = 20 Spooky.Pitch = 0.8 Spooky:Play() end end) end end
+end)
+Section:NewButton("jumpscare 2", "ButtonInfo", function()
+  b = Instance.new("Sky")  b.Parent = game.Lighting  b.SkyboxBk = "http://www.roblox.com/asset/?id=0"  b.SkyboxDn = "http://www.roblox.com/asset/?id=0" b.SkyboxFt = "http://www.roblox.com/asset/?id=0" b.SkyboxLf = "http://www.roblox.com/asset/?id=0" b.SkyboxRt = "http://www.roblox.com/asset/?id=0" b.SkyboxUp = "http://www.roblox.com/asset/?id=0"     for i,v in pairs(game.Players:GetPlayers()) do         if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then             spawn(function()                 local newgui = Instance.new("ScreenGui",v.PlayerGui)                 newgui.Name = "Screamer"                 local newimage = Instance.new("ImageLabel",newgui)                 newimage.Image = "http://www.roblox.com/Asset/?id=16891921648"                 newimage.Size = UDim2.new(1,1,1,1)                 local s = Instance.new("Sound",newgui)                 s.SoundId = "rbxassetid://6018028320"                 s.Volume = 9e9                 s.Looped = true                 s:Play()                 print("Screamed "..v.Name)                 while wait(9) do                      newimage.Parent:Destroy() wait(11) Spooky = Instance.new("Sound", game.Workspace)         Spooky.Name = "Spooky"         Spooky.SoundId = "rbxassetid://0"         Spooky.Volume = 20                 Spooky.Pitch = 0.8         Spooky:Play()                  end             end)         end     end
+end)
+Section:NewButton("message", "ButtonInfo", function()
+while wait(0.1) do
+       msg = Instance.new("Message",workspace)
+       msg.Text = " Team k00pkid6660 was here1!1!1!!1"
+       wait(0)
+       msg:Destroy()
+   end
+end)Section:NewButton("hint", "ButtonInfo", function()
+   local function write(text,object)
+			if object:IsA("Hint") == true then
+				local count = object:FindFirstChild("Count")
+				if count == nil then
+					count = Instance.new("NumberValue")
+					count.Parent = object
+					count.Name = "Count"
+					count.Value = count.Value + 1
+				else
+					count.Value = count.Value + 1
+				end
+				local startcount = count.Value
+				for i = 1,#text do
+					if count.Value == startcount then
+						local letter = string.sub(text,i,i)
+						object.Text = string.sub(text,1,i)
+						wait(0.001)
+					else
+						break
+					end
+				end
+			end
+		end
+		local bro = Instance.new("Hint",workspace)
+		write("this game has been haxed by k00pkid6660 D1SC discord.gg/WxF2hQh3 ",bro)
+end)
+Section:NewButton("k00p24 gui", "ButtonInfo", function()
+    -- Gui to Lua
+-- Version: 3.2
+-- Instances :
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local IMAGE = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+--Properties :
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 255, 97)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.536656916, 0, 0.220883533, 0)
+Frame.Size = UDim2.new(0, 356, 0, 300)
+
+IMAGE.Parent = Frame
+IMAGE.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
+IMAGE.BackgroundTransparency = 1
+IMAGE.BorderColor3 = Color3.fromRGB(0, 255, 0)
+IMAGE.BorderSizePixel = 3
+IMAGE.Size = UDim2.new(0, 356, 0, 300)
+IMAGE.Image = "rbxassetid://16012723250"
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.fromRGB(0, 255, 0)
+TextLabel.BorderSizePixel = 3
+TextLabel.Size = UDim2.new(0, 356, 0, 25)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "k00pkid24 gui"
+TextLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 255, 0)
+TextButton.BorderSizePixel = 3
+TextButton.Position = UDim2.new(0.08, 0, 0.5, 0)
+TextButton.Size = UDim2.new(0, 80, 0, 35)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "f3x c00lkidd"
+TextButton.TextColor3 = Color3.fromRGB(0, 255, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+
+end)
+
+-- Script:
+
+local function QFCS_fake_script() -- Frame.Dragify 
+    local script = Instance.new('LocalScript', Frame)
+
+    local UIS = game:GetService("UserInputService")
+    function dragify(Frame)
+        dragToggle = nil
+        local dragSpeed = 0
+        dragInput = nil
+        dragStart = nil
+        local dragPos = nil
+        function updateInput(input)
+            local Delta = input.Position - dragStart
+            local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+            game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+        end
+        Frame.InputBegan:Connect(function(input)
+            if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+                dragToggle = true
+                dragStart = input.Position
+                startPos = Frame.Position
+                input.Changed:Connect(function()
+                    if input.UserInputState == Enum.UserInputState.End then
+                        dragToggle = false
+                    end
+                end)
+            end
+        end)
+        Frame.InputChanged:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+                dragInput = input
+            end
+        end)
+        game:GetService("UserInputService").InputChanged:Connect(function(input)
+            if input == dragInput and dragToggle then
+                updateInput(input)
+            end
+        end)
+    end
+    
+    dragify(script.Parent)
+end
+coroutine.wrap(QFCS_fake_script)()
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 255, 0)
+TextButton.BorderSizePixel = 3
+TextButton.Position = UDim2.new(0.08, 0, 0.5, 0)
+TextButton.Size = UDim2.new(0, 80, 0, 35)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "phonk music"
+TextButton.TextColor3 = Color3.fromRGB(0, 255, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Up:connect(function()
+local sound = Instance.new("Sound")
+ 
+sound.Name = "Sound"
+sound.SoundId = "http://www.roblox.com/asset/?id=8683380188" --change
+sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+sound.Pitch = 0.9 --Speed of Playback
+sound.Looped = true
+sound.archivable = false
+ 
+sound.Parent = game.Workspace
+ 
+wait(0)
+ 
+sound:play()end)
+end)
+
+Section:NewButton("hint LOLL", "ButtonInfo", function()
+   local function write(text,object)
+			if object:IsA("Hint") == true then
+				local count = object:FindFirstChild("Count")
+				if count == nil then
+					count = Instance.new("NumberValue")
+					count.Parent = object
+					count.Name = "Count"
+					count.Value = count.Value + 1
+				else
+					count.Value = count.Value + 1
+				end
+				local startcount = count.Value
+				for i = 1,#text do
+					if count.Value == startcount then
+						local letter = string.sub(text,i,i)
+						object.Text = string.sub(text,1,i)
+						wait(0.001)
+					else
+						break
+					end
+				end
+			end
+		end
+		local bro = Instance.new("Hint",workspace)
+		write("TEAM FAT JOIN TODAY!",bro)
+end)
+
+Section:NewButton("raid by j00rkidd ", "ButtonInfo", function()
+ while wait(0.1) do
+			local part = Instance.new("Part",workspace)
+			part.Name = "Furry"
+	
+			local mesh = Instance.new("SpecialMesh",part)
+	
+			part.CanCollide = false
+			part.Size = Vector3.new(440,530,380)
+			part.Position = Vector3.new(math.random(-3000,1000),math.random(1,3000),math.random(-3000,3000))
+			part.RotVelocity = Vector3.new(math.random() * math.pi, math.random() * math.pi, math.random() * math.pi)
+	
+			mesh.MeshType = "FileMesh"
+			mesh.Scale = Vector3.new(150,150,150)
+			mesh.MeshId = "rbxassetid://1484148960"
+			mesh.TextureId = "rbxassetid://14692164619"
+		end
+end)
+
+Section:NewButton("op song", "ButtonInfo", function()
+local sound = Instance.new("Sound")
+ 
+sound.Name = "Sound"
+sound.SoundId = "http://www.roblox.com/asset/?id= 6834301814" --Song
+sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+sound.Pitch = 1 --Speed of Playback
+sound.Looped = true
+sound.archivable = false
+ 
+sound.Parent = game.Workspace
+ 
+wait(0)
+ 
+sound:play()  
+end)
+
+Section:NewButton("bypassed song", "ButtonInfo", function()
+  local sound = Instance.new("Sound")
+ 
+sound.Name = "Sound"
+sound.SoundId = "http://www.roblox.com/asset/?id= 9124780123" --Song
+sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+sound.Pitch = 1 --Speed of Playback
+sound.Looped = true
+sound.archivable = false
+ 
+sound.Parent = game.Workspace
+ 
+wait(0)
+ 
+sound:play()
+end)
+
+Section:NewButton("decal 1", "ButtonInfo", function()
+   decalID = 17823117686
+function exPro(root)
+for _, v in pairs(root:GetChildren()) do
+if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+v.Parent = nil
+elseif v:IsA("BasePart") then
+v.Material = "Plastic"
+v.Transparency = 0
+local One = Instance.new("Decal", v)
+local Two = Instance.new("Decal", v)
+local Three = Instance.new("Decal", v)
+local Four = Instance.new("Decal", v)
+local Five = Instance.new("Decal", v)
+local Six = Instance.new("Decal", v)
+One.Texture = "http://www.roblox.com/asset/?id="..decalID
+Two.Texture = "http://www.roblox.com/asset/?id="..decalID
+Three.Texture = "http://www.roblox.com/asset/?id="..decalID
+Four.Texture = "http://www.roblox.com/asset/?id="..decalID
+Five.Texture = "http://www.roblox.com/asset/?id="..decalID
+Six.Texture = "http://www.roblox.com/asset/?id="..decalID
+One.Face = "Front"
+Two.Face = "Back"
+Three.Face = "Right"
+Four.Face = "Left"
+Five.Face = "Top"
+Six.Face = "Bottom"
+end
+exPro(v)
+end
+end
+function asdf(root)
+for _, v in pairs(root:GetChildren()) do
+asdf(v)
+end
+end
+exPro(game.Workspace)
+asdf(game.Workspace)
+end)
+
+Section:NewButton("decal 3", "ButtonInfo", function()
+ decalID = 17779831229
+function exPro(root)
+for _, v in pairs(root:GetChildren()) do
+if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+v.Parent = nil
+elseif v:IsA("BasePart") then
+v.Material = "Plastic"
+v.Transparency = 0
+local One = Instance.new("Decal", v)
+local Two = Instance.new("Decal", v)
+local Three = Instance.new("Decal", v)
+local Four = Instance.new("Decal", v)
+local Five = Instance.new("Decal", v)
+local Six = Instance.new("Decal", v)
+One.Texture = "http://www.roblox.com/asset/?id="..decalID
+Two.Texture = "http://www.roblox.com/asset/?id="..decalID
+Three.Texture = "http://www.roblox.com/asset/?id="..decalID
+Four.Texture = "http://www.roblox.com/asset/?id="..decalID
+Five.Texture = "http://www.roblox.com/asset/?id="..decalID
+Six.Texture = "http://www.roblox.com/asset/?id="..decalID
+One.Face = "Front"
+Two.Face = "Back"
+Three.Face = "Right"
+Four.Face = "Left"
+Five.Face = "Top"
+Six.Face = "Bottom"
+end
+exPro(v)
+end
+end
+function asdf(root)
+for _, v in pairs(root:GetChildren()) do
+asdf(v)
+end
+end
+exPro(game.Workspace)
+asdf(game.Workspace)
+end)
+
+
+Section:NewButton("decal 4", "ButtonInfo", function()
+   decalID = 18257925026
+function exPro(root)
+for _, v in pairs(root:GetChildren()) do
+if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+v.Parent = nil
+elseif v:IsA("BasePart") then
+v.Material = "Plastic"
+v.Transparency = 0
+local One = Instance.new("Decal", v)
+local Two = Instance.new("Decal", v)
+local Three = Instance.new("Decal", v)
+local Four = Instance.new("Decal", v)
+local Five = Instance.new("Decal", v)
+local Six = Instance.new("Decal", v)
+One.Texture = "http://www.roblox.com/asset/?id="..decalID
+Two.Texture = "http://www.roblox.com/asset/?id="..decalID
+Three.Texture = "http://www.roblox.com/asset/?id="..decalID
+Four.Texture = "http://www.roblox.com/asset/?id="..decalID
+Five.Texture = "http://www.roblox.com/asset/?id="..decalID
+Six.Texture = "http://www.roblox.com/asset/?id="..decalID
+One.Face = "Front"
+Two.Face = "Back"
+Three.Face = "Right"
+Four.Face = "Left"
+Five.Face = "Top"
+Six.Face = "Bottom"
+end
+exPro(v)
+end
+end
+function asdf(root)
+for _, v in pairs(root:GetChildren()) do
+asdf(v)
+end
+end
+exPro(game.Workspace)
+asdf(game.Workspace)
+end)
+
+
+Section:NewButton("decal 5", "ButtonInfo", function()
+   decalID = 18377920559
+function exPro(root)
+for _, v in pairs(root:GetChildren()) do
+if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+v.Parent = nil
+elseif v:IsA("BasePart") then
+v.Material = "Plastic"
+v.Transparency = 0
+local One = Instance.new("Decal", v)
+local Two = Instance.new("Decal", v)
+local Three = Instance.new("Decal", v)
+local Four = Instance.new("Decal", v)
+local Five = Instance.new("Decal", v)
+local Six = Instance.new("Decal", v)
+One.Texture = "http://www.roblox.com/asset/?id="..decalID
+Two.Texture = "http://www.roblox.com/asset/?id="..decalID
+Three.Texture = "http://www.roblox.com/asset/?id="..decalID
+Four.Texture = "http://www.roblox.com/asset/?id="..decalID
+Five.Texture = "http://www.roblox.com/asset/?id="..decalID
+Six.Texture = "http://www.roblox.com/asset/?id="..decalID
+One.Face = "Front"
+Two.Face = "Back"
+Three.Face = "Right"
+Four.Face = "Left"
+Five.Face = "Top"
+Six.Face = "Bottom"
+end
+exPro(v)
+end
+end
+function asdf(root)
+for _, v in pairs(root:GetChildren()) do
+asdf(v)
+end
+end
+exPro(game.Workspace)
+asdf(game.Workspace)
+end)
+
+Section:NewButton("decal 6", "ButtonInfo", function()
+   decalID = 18436960553
+function exPro(root)
+for _, v in pairs(root:GetChildren()) do
+if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+v.Parent = nil
+elseif v:IsA("BasePart") then
+v.Material = "Plastic"
+v.Transparency = 0
+local One = Instance.new("Decal", v)
+local Two = Instance.new("Decal", v)
+local Three = Instance.new("Decal", v)
+local Four = Instance.new("Decal", v)
+local Five = Instance.new("Decal", v)
+local Six = Instance.new("Decal", v)
+One.Texture = "http://www.roblox.com/asset/?id="..decalID
+Two.Texture = "http://www.roblox.com/asset/?id="..decalID
+Three.Texture = "http://www.roblox.com/asset/?id="..decalID
+Four.Texture = "http://www.roblox.com/asset/?id="..decalID
+Five.Texture = "http://www.roblox.com/asset/?id="..decalID
+Six.Texture = "http://www.roblox.com/asset/?id="..decalID
+One.Face = "Front"
+Two.Face = "Back"
+Three.Face = "Right"
+Four.Face = "Left"
+Five.Face = "Top"
+Six.Face = "Bottom"
+end
+exPro(v)
+end
+end
+function asdf(root)
+for _, v in pairs(root:GetChildren()) do
+asdf(v)
+end
+end
+exPro(game.Workspace)
+asdf(game.Workspace)
+end)
+
+
+Section:NewButton("teams", "ButtonInfo", function()
+while true do
+			local team1 = Instance.new("Team", game.Teams)
+			team1.Name = "team k00pkid6660 ON TOP1!1!1!1!11"
+			team1.TeamColor = BrickColor.random()
+			game:service'Debris':AddItem(team1,0.3)
+			wait()
+		end
+end)
+
+
+Section:NewButton("Particle", "ButtonInfo", function()
+   for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id=16887668745" emit.VelocitySpread = 100 end
+end) 
+
+Section:NewButton("Particle 2", "ButtonInfo", function()
+ for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 17823143631" emit.VelocitySpread = 100 end
+end)
+
+Section:NewButton("Particle 3", "ButtonInfo", function()
+for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18675243058" emit.VelocitySpread = 100 end
+end)
+
+Section:NewButton("jumpscareee", "ButtonInfo", function()
+b = Instance.new("Sky")  b.Parent = game.Lighting  b.SkyboxBk = "http://www.roblox.com/asset/?id=0"  b.SkyboxDn = "http://www.roblox.com/asset/?id=0" b.SkyboxFt = "http://www.roblox.com/asset/?id=0" b.SkyboxLf = "http://www.roblox.com/asset/?id=0" b.SkyboxRt = "http://www.roblox.com/asset/?id=0" b.SkyboxUp = "http://www.roblox.com/asset/?id=0"     for i,v in pairs(game.Players:GetPlayers()) do         if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then             spawn(function()                 local newgui = Instance.new("ScreenGui",v.PlayerGui)                 newgui.Name = "Screamer"                 local newimage = Instance.new("ImageLabel",newgui)                 newimage.Image = "http://www.roblox.com/Asset/?id= 18586273372"                 newimage.Size = UDim2.new(1,1,1,1)                 local s = Instance.new("Sound",newgui)                 s.SoundId = "rbxassetid://6018028320"                 s.Volume = 9e9                 s.Looped = true                 s:Play()                 print("Screamed "..v.Name)                 while wait(9) do                      newimage.Parent:Destroy() wait(11) Spooky = Instance.new("Sound", game.Workspace)         Spooky.Name = "Spooky"         Spooky.SoundId = "rbxassetid://0"         Spooky.Volume = 20                 Spooky.Pitch = 0.8         Spooky:Play()                  end             end)         end     end
+end)
+
+
+Section:NewButton("Allah skybox", "ButtonInfo", function()
+   sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id= 18437694447"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id= 18437694447"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id= 18437694447"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id= 18437694447"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id= 18437694447"
+sky.SkyboxDn = "http://www.roblox.com/asset/?id= 18437694447"
+end)
+
+Section:NewButton("allah deacl", "ButtonInfo", function()
+   decalID = 18437694447
+function exPro(root)
+for _, v in pairs(root:GetChildren()) do
+if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+v.Parent = nil
+elseif v:IsA("BasePart") then
+v.Material = "Plastic"
+v.Transparency = 0
+local One = Instance.new("Decal", v)
+local Two = Instance.new("Decal", v)
+local Three = Instance.new("Decal", v)
+local Four = Instance.new("Decal", v)
+local Five = Instance.new("Decal", v)
+local Six = Instance.new("Decal", v)
+One.Texture = "http://www.roblox.com/asset/?id="..decalID
+Two.Texture = "http://www.roblox.com/asset/?id="..decalID
+Three.Texture = "http://www.roblox.com/asset/?id="..decalID
+Four.Texture = "http://www.roblox.com/asset/?id="..decalID
+Five.Texture = "http://www.roblox.com/asset/?id="..decalID
+Six.Texture = "http://www.roblox.com/asset/?id="..decalID
+One.Face = "Front"
+Two.Face = "Back"
+Three.Face = "Right"
+Four.Face = "Left"
+Five.Face = "Top"
+Six.Face = "Bottom"
+end
+exPro(v)
+end
+end
+function asdf(root)
+for _, v in pairs(root:GetChildren()) do
+asdf(v)
+end
+end
+exPro(game.Workspace)
+asdf(game.Workspace)
+end)
+
+Section:NewButton("Allah jumpscare", "ButtonInfo", function()
+   b = Instance.new("Sky") b.Parent = game.Lighting b.SkyboxBk = "http://www.roblox.com/asset/?id=0" b.SkyboxDn = "http://www.roblox.com/asset/?id=0" b.SkyboxFt = "http://www.roblox.com/asset/?id=0" b.SkyboxLf = "http://www.roblox.com/asset/?id=0" b.SkyboxRt = "http://www.roblox.com/asset/?id=0" b.SkyboxUp = "http://www.roblox.com/asset/?id=0" for i,v in pairs(game.Players:GetPlayers()) do if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then spawn(function() local newgui = Instance.new("ScreenGui",v.PlayerGui) newgui.Name = "Screamer" local newimage = Instance.new("ImageLabel",newgui) newimage.Image = "http://www.roblox.com/Asset/?id= 18437694447" newimage.Size = UDim2.new(1,1,1,1) local s = Instance.new("Sound",newgui) s.SoundId = "rbxassetid://2661731024" s.Volume = 999e999 s.Pitch = 1 s.Looped = true s:Play() print("Screamed "..v.Name) while wait(9) do newimage.Parent:Destroy() wait(9) Spooky = Instance.new("Sound", game.Workspace) Spooky.Name = "Spooky" Spooky.SoundId = "rbxassetid://0" Spooky.Volume = 20 Spooky.Pitch = 0.8 Spooky:Play() end end) end end
+end)
+
+Section:NewButton("jumpscare 3", "ButtonInfo", function()
+   b = Instance.new("Sky") b.Parent = game.Lighting b.SkyboxBk = "http://www.roblox.com/asset/?id=0" b.SkyboxDn = "http://www.roblox.com/asset/?id=0" b.SkyboxFt = "http://www.roblox.com/asset/?id=0" b.SkyboxLf = "http://www.roblox.com/asset/?id=0" b.SkyboxRt = "http://www.roblox.com/asset/?id=0" b.SkyboxUp = "http://www.roblox.com/asset/?id=0" for i,v in pairs(game.Players:GetPlayers()) do if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then spawn(function() local newgui = Instance.new("ScreenGui",v.PlayerGui) newgui.Name = "Screamer" local newimage = Instance.new("ImageLabel",newgui) newimage.Image = "http://www.roblox.com/Asset/?id=17779848737" newimage.Size = UDim2.new(1,1,1,1) local s = Instance.new("Sound",newgui) s.SoundId = "rbxassetid://6129291390" s.Volume = 999e999 s.Pitch =1 s.Looped = true s:Play() print("Screamed "..v.Name) while wait(9) do newimage.Parent:Destroy() wait(11) Spooky = Instance.new("Sound", game.Workspace) Spooky.Name = "Spooky" Spooky.SoundId = "rbxassetid://0" Spooky.Volume = 20 Spooky.Pitch = 0.8 Spooky:Play() end end) end end
+end)
+
+Section:NewButton("jumpscare 4", "ButtonInfo", function()
+   b = Instance.new("Sky") b.Parent = game.Lighting b.SkyboxBk = "http://www.roblox.com/asset/?id=0" b.SkyboxDn = "http://www.roblox.com/asset/?id=0" b.SkyboxFt = "http://www.roblox.com/asset/?id=0" b.SkyboxLf = "http://www.roblox.com/asset/?id=0" b.SkyboxRt = "http://www.roblox.com/asset/?id=0" b.SkyboxUp = "http://www.roblox.com/asset/?id=0" for i,v in pairs(game.Players:GetPlayers()) do if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then spawn(function() local newgui = Instance.new("ScreenGui",v.PlayerGui) newgui.Name = "Screamer" local newimage = Instance.new("ImageLabel",newgui) newimage.Image = "http://www.roblox.com/Asset/?id=17779831229" newimage.Size = UDim2.new(1,1,1,1) local s = Instance.new("Sound",newgui) s.SoundId = "rbxassetid://6129291390" s.Volume = 999e999 s.Pitch = 1 s.Looped = true s:Play() print("Screamed "..v.Name) while wait(9) do newimage.Parent:Destroy() wait(11) Spooky = Instance.new("Sound", game.Workspace) Spooky.Name = "Spooky" Spooky.SoundId = "rbxassetid://0" Spooky.Volume = 20 Spooky.Pitch = 0.8 Spooky:Play() end end) end end
+end)
+
+Section:NewButton("jumpscare 5", "ButtonInfo", function()
+   b = Instance.new("Sky") b.Parent = game.Lighting b.SkyboxBk = "http://www.roblox.com/asset/?id=0" b.SkyboxDn = "http://www.roblox.com/asset/?id=0" b.SkyboxFt = "http://www.roblox.com/asset/?id=0" b.SkyboxLf = "http://www.roblox.com/asset/?id=0" b.SkyboxRt = "http://www.roblox.com/asset/?id=0" b.SkyboxUp = "http://www.roblox.com/asset/?id=0" for i,v in pairs(game.Players:GetPlayers()) do if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then spawn(function() local newgui = Instance.new("ScreenGui",v.PlayerGui) newgui.Name = "Screamer" local newimage = Instance.new("ImageLabel",newgui) newimage.Image = "http://www.roblox.com/Asset/?id=18190812778" newimage.Size = UDim2.new(1,1,1,1) local s = Instance.new("Sound",newgui) s.SoundId = "rbxassetid://7347515348" s.Volume = 999e999 s.Pitch = 1 s.Looped = true s:Play() print("Screamed "..v.Name) while wait(10) do newimage.Parent:Destroy() wait(11) Spooky = Instance.new("Sound", game.Workspace) Spooky.Name = "Spooky" Spooky.SoundId = "rbxassetid://0" Spooky.Volume = 20 Spooky.Pitch = 0.8 Spooky:Play() end end) end end
+end) 
+
+
+Section:NewButton("phonk4", "ButtonInfo", function()
+   local sound = Instance.new("Sound")
+ 
+sound.Name = "Sound"
+sound.SoundId = "http://www.roblox.com/asset/?id= 6889574376" --Song
+sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+sound.Pitch = 1 --Speed of Playback
+sound.Looped = true
+sound.archivable = false
+ 
+sound.Parent = game.Workspace
+ 
+wait(0)
+ 
+sound:play()
+end)
+
+Section:NewButton("mush song", "ButtonInfo", function()
+   local sound = Instance.new("Sound")
+ 
+sound.Name = "Sound"
+sound.SoundId = "http://www.roblox.com/asset/?id= 35930009" --Song
+sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+sound.Pitch = 1.1 --Speed of Playback
+sound.Looped = true
+sound.archivable = false
+ 
+sound.Parent = game.Workspace
+ 
+wait(0)
+ 
+sound:play()
+end)
+
+Section:NewButton("jumpscare 999", "ButtonInfo", function()
+   b = Instance.new("Sky")  b.Parent = game.Lighting  b.SkyboxBk = "http://www.roblox.com/asset/?id=0"  b.SkyboxDn = "http://www.roblox.com/asset/?id=0" b.SkyboxFt = "http://www.roblox.com/asset/?id=0" b.SkyboxLf = "http://www.roblox.com/asset/?id=0" b.SkyboxRt = "http://www.roblox.com/asset/?id=0" b.SkyboxUp = "http://www.roblox.com/asset/?id=0"     for i,v in pairs(game.Players:GetPlayers()) do         if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then             spawn(function()                 local newgui = Instance.new("ScreenGui",v.PlayerGui)                 newgui.Name = "Screamer"                 local newimage = Instance.new("ImageLabel",newgui)                 newimage.Image = "http://www.roblox.com/Asset/?id=18157718923"                 newimage.Size = UDim2.new(1,1,1,1)                 local s = Instance.new("Sound",newgui)                 s.SoundId = "rbxassetid://7258313533"                 s.Volume = 9e9                 s.Looped = true                 s:Play()                 print("Screamed "..v.Name)                 while wait(7) do                      newimage.Parent:Destroy() wait(11) Spooky = Instance.new("Sound", game.Workspace)         Spooky.Name = "Spooky"         Spooky.SoundId = "rbxassetid://0"         Spooky.Volume = 20                 Spooky.Pitch = 0.8         Spooky:Play()                  end             end)         end     end
+end)
+
+
+Section:NewButton("disco decal 2", "ButtonInfo", function()
+  while wait(0.1) do
+        for _, part in pairs(workspace:GetDescendants()) do
+            if part:IsA("BasePart") then
+                part.Color = Color3.fromHSV(tick() % 5 / 5, 1, 1)
+            end
+        end
+        game.Lighting.OutdoorAmbient = Color3.fromHSV(tick() % 5 / 5, 1, 1)
+    end
+end)
+
+Section:NewButton("666 2", "ButtonInfo", function()
+   for _, part in pairs(workspace:GetDescendants()) do
+        if part:IsA("BasePart") then
+            local fire = Instance.new("Fire", part)
+            fire.Color = Color3.fromRGB(0, 255,255)
+            fire.Size = 25
+        end
+    end
+end)
+
+Section:NewButton("🤑🤑🤑 par", "ButtonInfo", function()
+   for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200804093" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200805063" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200806745" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200808110" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200809472" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200810729" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200816711" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200817642" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200899773" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200907584" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200908695" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200899773" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200899773" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200899773" emit.VelocitySpread = 100 end for i, v in pairs(game.Players:GetChildren()) do emit = Instance.new("ParticleEmitter") emit.Parent = v.Character.Head emit.Texture = "http://www.roblox.com/asset/?id= 18200899773" emit.VelocitySpread = 100 end
+end)
+
+Section:NewButton("decal 2", "ButtonInfo", function()
+  decalID = 18175126726
+function exPro(root)
+for _, v in pairs(root:GetChildren()) do
+if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+v.Parent = nil
+elseif v:IsA("BasePart") then
+v.Material = "Plastic"
+v.Transparency = 0
+local One = Instance.new("Decal", v)
+local Two = Instance.new("Decal", v)
+local Three = Instance.new("Decal", v)
+local Four = Instance.new("Decal", v)
+local Five = Instance.new("Decal", v)
+local Six = Instance.new("Decal", v)
+One.Texture = "http://www.roblox.com/asset/?id="..decalID
+Two.Texture = "http://www.roblox.com/asset/?id="..decalID
+Three.Texture = "http://www.roblox.com/asset/?id="..decalID
+Four.Texture = "http://www.roblox.com/asset/?id="..decalID
+Five.Texture = "http://www.roblox.com/asset/?id="..decalID
+Six.Texture = "http://www.roblox.com/asset/?id="..decalID
+One.Face = "Front"
+Two.Face = "Back"
+Three.Face = "Right"
+Four.Face = "Left"
+Five.Face = "Top"
+Six.Face = "Bottom"
+end
+exPro(v)
+end
+end
+function asdf(root)
+for _, v in pairs(root:GetChildren()) do
+asdf(v)
+end
+end
+exPro(game.Workspace)
+asdf(game.Workspace)
+end)
+
+Section:NewButton("music", "ButtonInfo", function()
+   local sound = Instance.new("Sound")
+ 
+sound.Name = "Sound"
+sound.SoundId = "http://www.roblox.com/asset/?id= 6706336813" --Song
+sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+sound.Pitch = 1 --Speed of Playback
+sound.Looped = true
+sound.archivable = false
+ 
+sound.Parent = game.Workspace
+ 
+wait(0)
+ 
+sound:play()
+end)
+
+Section:NewButton("Doritus Particles", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/KWmEQMkq"))()
+end)
+
+Section:NewButton("Mlg Particles", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/nriGxMtT"))()
+end)
+
+Section:NewButton("Illuminati Particles", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/UPAA82Fk"))()
+end)
+
+Section:NewButton("Anonymous Particles", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ryand56/Scripts/Scripts/anonymous%20all.txt"))()
+end)
+
+Section:NewButton("Donald Trump Particles", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PJx5RP5F"))()
+end)
+
+Section:NewButton("Rc7 Particles", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/cwvCvJ2g"))()
+end)
+
+Section:NewButton("Music", "ButtonInfo", function()
+    local music = Instance.new("Sound", game.Workspace)
+music.SoundId = "rbxassetid://6038276929"
+music.Volume = 99999999999999999999999999999999999999999
+music.Looped = true
+music.PlayOnRemove = true
+music:Play()
+end)
+
+Section:NewButton("Extra Disco", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/AEhFRTNU"))()
+end)
+
+Section:NewButton("While", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3MAUYqDv"))()
+end)
+
+Section:NewButton("Shedletskyify", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/AZjLpdEp"))()
+end)
+
+
+
+local Tab = Window:NewTab("tools fe ")
+local Section = Tab:NewSection("script")
+
+Section:NewButton("nuke tool", "ButtonInfo", function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/fkVyKnJy'))()
+end)
+
+Section:NewButton("tool gui", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/AZVi2tuK"))()
+end)
+
+Section:NewButton("tool gui v2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Ctqjmtkv",true))()
+end)
+
+Section:NewButton("tool gui v3", "ButtonInfo", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/53yY1S39'))()
+end)
+
+Section:NewButton("toolsss", "ButtonInfo", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/H9B4aGij'))()
+end)
+
+Section:NewButton("tools", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/main/Roblox%20delete%20part%20script'))()
+end)
+
+local Tab = Window:NewTab("gui ")
+local Section = Tab:NewSection("script")
+
+Section:NewButton("k00ph4x0rz6660 gui op", "ButtonInfo", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/z8QtkJpm'))()
+end)
+
+Section:NewButton("jo1tar0 gui backdoor", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/JOTAR0GUI/main/JO1TAR0GUI"))()
+end)
+
+Section:NewButton("Y00NKIDD GUI V2 PRIVATE", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/PIKACHU4833/JKLALT-GUI/main/V2"))()
+end)
+
+Section:NewButton("arab gui", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Arab-gui/main/Arab%20gui"))()
+end)
+
+Section:NewButton("ck gui mobile", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/PIKACHU4833/B0SSJKIDD-CK/main/BOSSJKIDD%20CK"))()
+end)
+
+Section:NewButton("y00ngui v1", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/t9nvD8Uu"))()
+end)
+
+Section:NewButton("JKLO GUI V5 op gui", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/PIKACHU4833/JKLGUI/main/V5"))()
+end)
+
+Section:NewButton("k00pgui Revival", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/8hdcuUw2"))()
+end)
+
+Section:NewButton("Itsnotskeleton gui v3", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/kPnDuXcC"))()
+end)
+
+Section:NewButton("C00lkidd reawakened", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/YjjW74s2"))()
+end)
+
+Section:NewButton("n0tagui op", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/kTfLrzuR"))()
+end)
+
+Section:NewButton("Undetectable gui v7", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pedroluckygod/Yes/main/UNDETECTABLE%20GUI%20V7"))()
+end)
